@@ -2,7 +2,7 @@
   box-sizing: border-box
 }
 
-h1, h2, h3, h4, p {
+h1, h4, p {
   margin: 0;
 }
 
@@ -16,13 +16,17 @@ body {
   margin: 0 auto;
 }
 
+.bg-color {
+  background-color: #FFFFFF;
+}
+
 /* left section start */
 
 .section__left {
   display: inline-block;
   vertical-align: middle;
   width: 445px;
-  padding-bottom: 48px;
+  padding-bottom: 40px;
   margin-right: 30px;
 }
 
@@ -41,7 +45,6 @@ body {
 }
 
 .section__main {
-  background-color: #FFFFFF;
   margin-left: 95px;
   border-radius: 8px;
   padding-top: 31px;
@@ -76,7 +79,7 @@ body {
   line-height: 24px;
   color: #969BAB;
   padding-left: 64px;
- }
+}
 
 /* left section end */
 
@@ -92,7 +95,6 @@ body {
 }
 
 .section__right-top {
-  background-color: #FFFFFF;
   border-radius: 8px;
   padding-top: 31px;
   padding-bottom: 31px;
@@ -109,7 +111,6 @@ body {
 }
 
 .section__right-bottom {
-  background-color: #FFFFFF;
   border-radius: 8px;
   padding-top: 31px;
   padding-bottom: 31px;
@@ -124,3 +125,5 @@ body {
   padding-right: 32px;
   margin-bottom: 24px;
 }
+
+/* right section end */
