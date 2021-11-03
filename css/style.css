@@ -2,8 +2,110 @@
   box-sizing: border-box
 }
 
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Opensans";
+  
+}
+
 .container {
   width: 1110px;
   margin: 0 auto;
+ 
 }
+
+section {
+  height: 200px;
+  background-color:#8C30F5;
+}
+
+
+
+
+.section__main {
+  position: absolute;
+  top: 200px;
+  margin-top: -120px;
+  padding: 32px 0 32px;
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.ml-4 {
+  margin-left: -4px;
+}
+
+.section__item {
+  display: inline-block;
+  width: 255px;
+  height: 176px;
+  text-align: center;
+  /* background-color:brown; */
+  
+}
+
+
+.item-img {
+  position: relative;
+  margin-bottom: 16px;
+  margin-left: 95px;
+  width: 64px;
+  height: 64px;
+  background-color: #F4F5F7;
+  border-radius: 50%;
+}
+
+img {
+  position: absolute;
+  right: 50%;
+  margin-right: -12px;
+  top: 50%;
+  margin-top: -12px;
+}
+
+
+
+.item-num{
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #8C30F5;
+
+}
+
+.item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
