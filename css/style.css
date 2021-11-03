@@ -29,7 +29,8 @@ body {
   background-position: right; 
 }
 
-/*  */
+/* header top start */
+
 .header__top {
   position: fixed;
   padding: 22px 0 22px;
@@ -60,6 +61,10 @@ body {
   padding-top: 291px;
 }
 
+/* header top end */
+
+/* header main start */
+
 .header__main-text {
   font-weight: 800;
   font-size: 72px;
@@ -85,10 +90,12 @@ body {
   top: -11px;
 } 
 
+/* header main end */
+
+/* section start just for fun */
 
 .section__main {
   padding-top: 50px;
-
 }
 
 .section__main-text {
@@ -105,6 +112,7 @@ body {
   line-height: 32px;
 }
 
+/* section end */
 
 
 
