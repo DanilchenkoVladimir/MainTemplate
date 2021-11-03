@@ -2,32 +2,23 @@
   box-sizing: border-box
 }
 
-h1, h2, h3, h4, p {
+h4, p {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
-  font-family: "Opensans";
-  
+  font-family: "Opensans", sans-serif;
 }
 
 .container {
   width: 1110px;
   margin: 0 auto;
- 
 }
 
 section {
   height: 200px;
   background-color:#8C30F5;
 }
-
-
-
 
 .section__main {
   position: absolute;
@@ -52,10 +43,7 @@ section {
   width: 255px;
   height: 176px;
   text-align: center;
-  /* background-color:brown; */
-  
 }
-
 
 .item-img {
   position: relative;
@@ -75,14 +63,11 @@ img {
   margin-top: -12px;
 }
 
-
-
 .item-num{
   font-weight: 800;
   font-size: 48px;
   line-height: 64px;
   color: #8C30F5;
-
 }
 
 .item-text {
@@ -91,21 +76,3 @@ img {
   line-height: 32px;
   color: #18191F;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
