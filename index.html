@@ -4,14 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/fonts.css">
+    <title>Klean</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
+   <header class="header">
+       <div class="container">
+           <div class="row align-items-center">
+               <div class="col-2">
+                   <a class="header__logo" href="#"> 
+                       <img src="img/header/logo.jpg" alt="logo">
+                   </a>
+               </div><!-- /.col-2 -->
+               
+               <div class="col-8">
+                   <nav class="nav__menu">
+                        <a class="nav__menu-item" href="#">Home
+                            <img class="menu__item-img" src="img/header/arrow.svg" alt="arrow">
+                        </a>
+                   
+                        <a class="nav__menu-item" href="#">Service
+                            <img class="menu__item-img" src="img/header/arrow.svg" alt="arrow">
+                        </a>
+                   
+                        <a class="nav__menu-item" href="#">Works
+                            <img class="menu__item-img float-start" src="img/header/arrow.svg" alt="arrow">
+                        </a>
+                   
+                        <a class="nav__menu-item" href="#">News
+                            <img class="menu__item-img" src="img/header/arrow.svg" alt="arrow">
+                        </a>
+                   
+                        <a class="nav__menu-item" href="#">Contact
+                            <img class="menu__item-img" src="img/header/arrow.svg" alt="arrow">
+                        </a> 
+                   </nav>    
+               </div><!-- /.col-8 -->
+               
+               <div class="col-2">
+                    <button class="header__button">Log In</button>
+                    <button class="header__button">Sign Up</button>
+               </div><!-- /.col-2 -->
+           </div><!-- /.row -->
+       </div>    
+   </header>
 
-    
+   <main>
+       <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="section__left">
+                            <h1 class="section__header">Bootstrap 5 theme</h1>
+                                <span class="section__text">crafted by ThemeWagon</span>
+                                    <p class="section__descr">
+                                        ThemeWagon offers an wide array of category-oriented
+                                    </p>
+                                    <p class="section__descr descr__mb">
+                                        Free and Premium  Bootstrap HTML Templates and Themes.
+                                    </p>
+                                <button class="section__button">Check Demo</button>
+                        </div>
+                    </div><!-- /.col-5 -->
+
+                    <div class="col-7">
+                        <div class="section__right">
+                            <img class="section__right-img" src="img/main/header-bg.jpg" alt="picture">
+                        </div>
+                    </div><!-- /.col-7 -->
+                </div><!-- /.row -->
+            </div>
+       </section>
+       
+       <aside>
+           <div class="container">
+                <div class="row align-items-center">
+                   <div class="col textalign-s padding-l">
+                       <img src="img/main/main-aside/google.svg" alt="google">
+                   </div>
+                   <div class="col textalign-s">
+                        <img src="img/main/main-aside/netflix.svg" alt="netflix"> 
+                   </div>
+                   <div class="col textalign-s">
+                        <img src="img/main/main-aside/microsoft.svg" alt="microsoft"> 
+                   </div>
+                   <div class="col">
+                        <img src="img/main/main-aside/mailbluster.svg" alt="mailbluster"> 
+                   </div>
+                   <div class="col textalign-e padding-r">
+                        <img src="img/main/main-aside/themewagon.svg" alt="themewagon"> 
+                   </div>
+                </div>
+           </div>
+       </aside>   
+    </main>
 </body>
 </html>
