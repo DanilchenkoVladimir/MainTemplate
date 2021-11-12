@@ -8,16 +8,11 @@ h1, h2, h3, h4, p {
 
 body {
   font-family: "Nunito", serif;
-  /* background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);  */
-  /* opacity: 0.11; */
+  
 }
 
 a {
   text-decoration: none;
-}
-
-.col-2, .col-3, .col-5, .col-6, .col-7 {
-  padding: 0;
 }
 
 .container {
