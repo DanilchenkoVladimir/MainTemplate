@@ -22,9 +22,9 @@ h1, h2, h3, h4, p {
 
 section {
   max-width: 1440px;
+  height: 100vh;
   margin: 0 auto;
   padding: 64px 0 204px;
-  min-height: 100vh;
   background-image: url(../img/main-bg.jpg);
   background-position: top left;
   background-repeat: no-repeat;
